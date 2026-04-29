@@ -1,3 +1,12 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : THIAGO BITENCOURT SANCHO
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1071
+Data        : 28/04/2026
+Objetivo    : SOMAR IMPARES ENTRE DOIS NUMEROS
+Aprendizado : APRENDI LACOS DE REPETICAO
+-------------------------------------------------------------------------- */
 #include<stdio.h>
 
 int main(void){
