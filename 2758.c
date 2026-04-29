@@ -1,3 +1,12 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : THIAGO BITENCOURT SANCHO
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/2758
+Data        : 28/04/2026
+Objetivo    : FORMATAR STRINGS
+Aprendizado : APRENDI A FORMATAR STRINGS
+-------------------------------------------------------------------------- */
 #include<stdio.h>
 int main(void){
 	float a , b;
