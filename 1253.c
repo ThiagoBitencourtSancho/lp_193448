@@ -10,18 +10,26 @@ Aprendizado : APRENDI A LIDAR COM CHAR
 #include<stdio.h>
 #include<string.h>
 int main(){
-	char frase[51] , saida[51];
+	
 	int n;
+	int a;
 	
-	fgets(frase , 51 , stdin);
-	scanf("%d" , &n);
+	scanf("%d" , &a);
 	
-	for(int contador= 0; frase[contador] != '\0'; contador++){
-		printf("%d" , contador);
-		char letra = frase[contador];
-		saida[contador] = letra + n;
+	for(int i = 1; i<=a; i++){
+		char frase[52] = {0};
+		char saida[52] = {0}; 
+		scanf("%s" , frase);
+		scanf("%d" , &n);
+		
+		for(int contador= 0; contador<= strlen(frase) - 1; contador++){
+			char letra = frase[contador];
+			saida[contador] = (letra - 'A' - n + 26) % 26 + 'A';
+		}
+		
+		printf("%s\n" , saida);	
+			
+		
 	}
-	
-	printf("%s" , saida);	
 	return 0;
 }
