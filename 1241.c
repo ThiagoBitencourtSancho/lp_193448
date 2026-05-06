@@ -1,3 +1,12 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : THIAGO BITENCOURT SANCHO
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1241
+Data        : 28/04/2026
+Objetivo    : ENCAIXA OU NÃO ENCAIXA
+Aprendizado : VERFICAR OS ULTIMOS DIGITOS DE UM NUMERO
+-------------------------------------------------------------------------- */
 #include<stdio.h>
 #include<string.h>
 
